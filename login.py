@@ -5,7 +5,7 @@ def login(username, password):
     if username == "admin" and password == "1234":
         print("Login successful")
     else:
-        print("Invalid credentials")
+        print("Invalid credentials") 
 
 if __name__ == "__main__":
     user = input("Username: ")
